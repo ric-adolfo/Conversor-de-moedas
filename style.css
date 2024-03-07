@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none; /*tira toda marqauem azul no input na caixinha*/
+}
+
+body {
+  background-image: url(./assets/Capa-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  
+}
+
+
+.logo {
+    width: 300px;
+    display: block;
+    margin:0 auto;  /* opçoes =  margin-left: auto; /margin-right: auto;  */
+    padding: 30px 40px;
+}
+
+main {
+    width: 375px;                   /* opçoes */
+    background: #f4f4f4;          /*padding: 44px; = aplica para os 4 lados */   
+    border-radius: 20px;            /*padding: 44px 24px 23px; = 1)cima e baixo  2)lados */
+    margin: 0 auto ;               /*padding: 44px 24px 23px 20px; 1)cima 2)lados 3)lados */
+    padding: 44px 24px 23px;        /*padding: 44px 24px 23px 20px: 1)cima 2)direita 3)baixo 4)esquarda */
+}  /*em cima e baixo dos lados*/
+
+label {
+  color: #777777;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+select, input {
+  background: #FFFFFF;
+  border: 1px solid #BBBBBB;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px;
+  appearance: none; /*tira a setinha do lçaso diretito das caxinhas*/
+  padding-left: 18px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #555555;
+  cursor: pointer;
+}
+
+button {
+  background: #772FD3;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  height: 48px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+section {
+  border: 1px solid #772FD3;
+  border-radius: 20px;
+  margin-top: 36px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-img {
+  margin: 15px 0;
+}
+
+.currency-box {
+  display: flex;
+  flex-direction: column; /*escolher se vai ficar um do lado outro ou em cima do outro */
+  align-items: center; 
+  gap: 4px;
+}
+
+.arrow-img{
+color: #777777;
+font-size: 14px;
+} 
+
+.currency-value, .currency-value-to-convert {
+  color: #555555;
+  font-weight: 700;
+  font-size: 20px;
+}
