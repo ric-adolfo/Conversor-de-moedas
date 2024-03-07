@@ -1,4 +1,4 @@
-<h1>Conversor de moedas</h1>
+<h1>Covet Money</h1>
 <br>
 <br>
 <h2>Mais um recente projeto de aprendizado, um conversor de moedas foi  um grande desafio..</b></h2>
