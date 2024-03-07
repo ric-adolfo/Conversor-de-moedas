@@ -1,7 +1,7 @@
 <h1>Conversor de moedas</h1>
 <br>
 <br>
-<h2>Mais um recente projeto de aprendizado, um conversor de moedas que desenvolvi foi  um grande desafio..</b></h2>
+<h2>Mais um recente projeto de aprendizado, um conversor de moedas foi  um grande desafio..</b></h2>
 
 <br>
 <h3>Tecnologias:</h3>
